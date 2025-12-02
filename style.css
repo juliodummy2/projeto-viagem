@@ -1,0 +1,40 @@
+.header-logo{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.procurar{
+    padding-top: 10px;
+    
+}
+.logo{
+    height: 32px;
+    width: 167px;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: #05073C;
+    font-family: arial;
+    font-size: 14.7px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.log-in{
+    background-color: #EB662B;
+    border-radius: 25px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    color: white;
+}

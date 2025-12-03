@@ -61,9 +61,9 @@ ul{
     background-image: url("./assets/banner-1.png");
     background-repeat: no-repeat;
     display: flex;
-    flex-direction: row;
-    
-
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 710px;
     width: 1805px;
 }

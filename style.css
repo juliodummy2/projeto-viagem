@@ -83,6 +83,141 @@ ul{
 .caixa-texto-banner{
     padding-bottom: 120px;
 }
-.botoes-banner{
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+    width: 850px;
+    height: 80px;
+}
+.botao-search{
+    border-style: none;
+    border-color: #EB662B;
     background-color: #EB662B;
+    padding: 20px;
+    width: 137px;
+    height: 60px;
+    border-radius: 12px;
+    padding-left: 60px;
+    color: white;
+    font-size: 14.65px;
+}
+.where{
+    display: flex;
+    flex-direction: column;
+}
+.when{
+    display: flex;
+    flex-direction: column;
+}
+.tour-type{
+    display: flex;
+    flex-direction: column;
+}
+.quadrado{
+    border: 1px solid #E7E6E6;
+    border-radius: 12px;
+    height: 50px;
+    width: 50px;
+}
+.botoes-texto{
+    color: #717171;
+    font-size: 13.67px;
+}
+.botoes-titulo{
+    font-size: 14.88px;
+    color:#05073C;
+    font-weight: 500;
+}
+.why-tourz-titulo{
+    color: #05073C;
+    font-size: 29.3px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.section-center{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+}
+.why-tourz{
+    height: 296.38px;
+    width: 1320px;
+}
+.tourz-caixas{
+    display: flex;
+    justify-content: space-around;
+}
+.caixas-tourz-titulo{
+    color: #05073C;
+    font-size: 17.72px;
+    padding-bottom: 10px;
+}
+.caixas-tourz-texto{
+    font-size: 14.65px;
+    color: #05073C;
+}
+.imagem-why-tourz{
+    padding-bottom: 30px;
+}
+.tourz-conjuntos{
+    width: 255px;
+}
+.trending-destinations{
+    height: 296.38px;
+    width: 1320px;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    gap: 70px;
+    padding-bottom: 200px;
+}
+.trending-destinations-caixa{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.trending-destinations-titulo{
+    font-size: 29.41px;
+    color: #05073C;
+    font-weight: 700;
+}
+.conjunto-destinations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+.conjunto-destinations img{
+    padding-bottom: 15px;
+}
+.conjunto-destinations-titulo{
+    font-size: 15.63px;
+    color: #05073C;
+}
+.conjunto-destinations-texto{
+    font-size: 13.56px;
+    color: #05073C;
+}
+.popular-tours{
+    display: flex;
+    flex-direction: column;
+}
+.popular-tours-titulo{
+    padding-bottom: 50px;
+    font-size: 29.41px;
+    color:#05073C;
+    font-weight: 700;
+}
+.popular-tours-caixas{
+    width: 300px;
+    height: 388.31px;
+    border: 1px solid #E7E6E6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
 }

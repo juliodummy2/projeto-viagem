@@ -204,7 +204,11 @@ ul{
 }
 .popular-tours{
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
+    justify-self: center;
+    height: 815px;
+    width: 1500px;
+    padding: 10px;
 }
 .popular-tours-titulo{
     padding-bottom: 50px;
@@ -215,9 +219,43 @@ ul{
 .popular-tours-caixas{
     width: 300px;
     height: 388.31px;
+    border-radius: 12px;
     border: 1px solid #E7E6E6;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
+}
+hr{
+    border: 1px solid #717171;
+    width: 80%;
+    margin: 0 auto;
+}
+.texto-imagem-popular{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.popular-titulo{
+    color: #717171;
+    font-size: 12.29px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.popular-texto{
+    color: #05073C;
+    font-size: 15.88px;
+    padding: 5px;
+    padding-left: 10px;
+}
+.popular-avaliacao{
+    font-size: 15.88px;
+    color: #05073C;
+    padding-left: 70px;
+}
+.preco-e-tempo{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    color: #05073C;
 }

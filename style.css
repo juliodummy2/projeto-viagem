@@ -58,7 +58,7 @@ ul{
     justify-content: center;
 }
 .banner{
-    background-image: url("./assets/banner-1.png");
+    background-image: url("./assets/img/banner-1.png");
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -206,9 +206,10 @@ ul{
     display: flex;
     flex-flow: column wrap;
     justify-self: center;
-    height: 815px;
+    height: 845px;
     width: 1500px;
     padding: 10px;
+    gap: 20px;
 }
 .popular-tours-titulo{
     padding-bottom: 50px;
@@ -258,4 +259,9 @@ hr{
     justify-content: space-around;
     gap: 100px;
     color: #05073C;
+}
+.popular-tours-caixa-maior{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
 }

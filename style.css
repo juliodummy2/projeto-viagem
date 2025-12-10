@@ -296,6 +296,7 @@ hr{
     font-weight: bold;
 }
 .book-now-caixa{
+    padding-left: 180px;
     width: 366.14px;
     height: 156px;
 }
@@ -324,6 +325,8 @@ hr{
     background-image: url("./assets/img/banner-grandaum.png");
     background-repeat: no-repeat;
     padding-top: 190px;
+    border-radius: 12px;
+    margin-top: 140px;
     display: flex;
     justify-self: center;
     width: 1300px;
@@ -339,6 +342,7 @@ hr{
     width: 1530px;
     height: 767.31px;
     border-radius: 12px;
+    margin-top: 140px;
 }
 .top-trending-caixa-menor{
     display: flex;
@@ -571,6 +575,22 @@ hr{
     gap: 10px;
 }
 .contact{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 356.62px;
+}
+.footer-texto-menor{
+    display: flex;
+    justify-content: space-around;
+}
+.company-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 356.62px;
+}
+.suporte-footer{
     display: flex;
     flex-direction: column;
     gap: 30px;

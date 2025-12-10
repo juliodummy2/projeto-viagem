@@ -298,7 +298,6 @@ hr{
 .book-now-caixa{
     width: 366.14px;
     height: 156px;
-    background-color: aqua;
 }
 .book-now-btn{
     background-color: #EB662B;
@@ -452,9 +451,128 @@ hr{
     align-items: start;
 }
 .section-down-de-novo{
-    background-color: #4A43C4;
     display: flex;
+    flex-direction: column;
     justify-self: center;
+    justify-content: space-around;
     width: 1320px;
     height: 529.98px;
+}
+.card-img1{
+    background-image: url("./assets/img/camelo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 409.98px;
+    height: 299.98px;
+    position: relative;
+}
+.caixa-trips{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 62.17px;
+    height: 36px;
+    border-radius: 200px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.caixa-trips p{
+    color: #05073C;
+    font-weight: 500;
+    font-size: 13.56px;
+}
+.texto-superior{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: #05073C;
+    font-size: 13.60px;
+}
+.linha{
+    background-color: #E7E6E6;
+    width: 1px;
+    height: 20px;
+}
+.tudo-junto{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    gap: 10px;
+}
+.texto-inferior{
+    width: 366.92px;
+    height: 51px;
+    color: #05073C;
+    font-size: 17.3px;
+    font-weight: 400;
+}
+.card-img2{
+    background-image: url("./assets/img/montanhas-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 409.98px;
+    height: 299.98px;
+    position: relative;
+}
+.card-img3{
+    background-image: url("./assets/img/praia-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 409.98px;
+    height: 299.98px;
+    position: relative;
+}
+.caixa-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.travel-articles-titulo{
+    color: #05073C;
+    font-size: 29.65px;
+    font-weight: bold;
+    padding-left: 14px;
+}
+.footer-background{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    background-image: url("./assets/img/fundo-footer.png");
+    width: 1800px;
+    height: 655.13px;
+}
+.speak{
+    font-size: 19.69px;
+    color: #05073C;
+    font-weight: 400;
+}
+.footer-highlight{
+    color: #EB662B;
+}
+.footer-texto-maior{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #969595;
+    width: 1290px;
+    height: 185.13px;
+    background-color: aqua;
+    align-items: center;
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1320px;
+    height: 655.13px;
+    background-color: aquamarine;
+    gap: 10px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 356.62px;
 }
